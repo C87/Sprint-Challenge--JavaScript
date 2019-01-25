@@ -58,7 +58,8 @@ console.log(tyrannosaurus.roar());
 
 // ==== Arrays ====11111
 
-// Given an array of college graduates.  Complete the following requests WITHOUT using any array methods like .forEach(), .map(), .reduce(), .filter()
+// Given an array of college graduates.  Complete the following requests WITHOUT using any array methods like 
+// .forEach(), .map(), .reduce(), .filter()
 
 const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern State College","email":"ctorry0@macromedia.com"},
 {"id":2,"first_name":"Saundra","university":"The School of the Art Institute of Chicago","email":"swhal1@state.gov"},
@@ -99,7 +100,8 @@ for (let i = 0; i < graduates.length; i ++) {
 console.log(contactInfo);
 
 
-/* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
+/* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni 
+that contains them all. Log the result. */
 const uni = [];
 
 for (let i = 0; i < graduates.length; i ++) {
@@ -111,7 +113,8 @@ console.log(uni);
 
 // ==== ADVANCED Array Methods ====
 
-// Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
+// Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods 
+// in the requests below to solve the problems.
 
 zooAnimals = [{"animal_name":"Jackal, asiatic","population":5,"scientific_name":"Canis aureus","state":"Kentucky"},
 {"animal_name":"Screamer, southern","population":1,"scientific_name":"Chauna torquata","state":"Alabama"},
@@ -126,8 +129,9 @@ zooAnimals = [{"animal_name":"Jackal, asiatic","population":5,"scientific_name":
 
 /* Request 1: .forEach()
 
-The zoo wants to display both the scientific name and the animal name in front of the habitats.  Return an array with only the animal and scientific names in it.  
-The individual values in the array should look like this "Name: Jackal, asiatic, Scientific: Canis aureus."
+The zoo wants to display both the scientific name and the animal name in front of the habitats.  Return an array with only 
+the animal and scientific names in it. The individual values in the array should look like this:
+"Name: Jackal, asiatic, Scientific: Canis aureus."
 
 */
 const animalNames = [];
@@ -160,7 +164,8 @@ console.log(largerPopulation);
 
 /* Request 4: .reduce() 
 
-The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
+The zoos need to know their total animal population across the United States.  Find the total population 
+from all the zoos using the .reduce() method.
 
 */
 const populationTotal = zooAnimals.reduce(function(accumulator, currentvalue) {
